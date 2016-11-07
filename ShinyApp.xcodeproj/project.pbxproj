@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB34551A1DD0C82100EE4E18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3455191DD0C82100EE4E18 /* AppDelegate.swift */; };
+		DB34551C1DD0C82100EE4E18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB34551B1DD0C82100EE4E18 /* ViewController.swift */; };
+		DB34551F1DD0C82100EE4E18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB34551D1DD0C82100EE4E18 /* Main.storyboard */; };
+		DB3455211DD0C82100EE4E18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB3455201DD0C82100EE4E18 /* Assets.xcassets */; };
+		DB3455241DD0C82100EE4E18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB3455221DD0C82100EE4E18 /* LaunchScreen.storyboard */; };
+		DB34552F1DD0C82100EE4E18 /* ShinyAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB34552E1DD0C82100EE4E18 /* ShinyAppTests.swift */; };
+		DB34553A1DD0C82100EE4E18 /* ShinyAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3455391DD0C82100EE4E18 /* ShinyAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB34552B1DD0C82100EE4E18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB34550E1DD0C82100EE4E18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB3455151DD0C82100EE4E18;
+			remoteInfo = ShinyApp;
+		};
+		DB3455361DD0C82100EE4E18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB34550E1DD0C82100EE4E18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB3455151DD0C82100EE4E18;
+			remoteInfo = ShinyApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB3455161DD0C82100EE4E18 /* ShinyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShinyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB3455191DD0C82100EE4E18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB34551B1DD0C82100EE4E18 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DB34551E1DD0C82100EE4E18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB3455201DD0C82100EE4E18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB3455231DD0C82100EE4E18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB3455251DD0C82100EE4E18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB34552A1DD0C82100EE4E18 /* ShinyAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShinyAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB34552E1DD0C82100EE4E18 /* ShinyAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShinyAppTests.swift; sourceTree = "<group>"; };
+		DB3455301DD0C82100EE4E18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB3455351DD0C82100EE4E18 /* ShinyAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShinyAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB3455391DD0C82100EE4E18 /* ShinyAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShinyAppUITests.swift; sourceTree = "<group>"; };
+		DB34553B1DD0C82100EE4E18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB3455131DD0C82100EE4E18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB3455271DD0C82100EE4E18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB3455321DD0C82100EE4E18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB34550D1DD0C82100EE4E18 = {
+			isa = PBXGroup;
+			children = (
+				DB3455181DD0C82100EE4E18 /* ShinyApp */,
+				DB34552D1DD0C82100EE4E18 /* ShinyAppTests */,
+				DB3455381DD0C82100EE4E18 /* ShinyAppUITests */,
+				DB3455171DD0C82100EE4E18 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB3455171DD0C82100EE4E18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB3455161DD0C82100EE4E18 /* ShinyApp.app */,
+				DB34552A1DD0C82100EE4E18 /* ShinyAppTests.xctest */,
+				DB3455351DD0C82100EE4E18 /* ShinyAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB3455181DD0C82100EE4E18 /* ShinyApp */ = {
+			isa = PBXGroup;
+			children = (
+				DB3455191DD0C82100EE4E18 /* AppDelegate.swift */,
+				DB34551B1DD0C82100EE4E18 /* ViewController.swift */,
+				DB34551D1DD0C82100EE4E18 /* Main.storyboard */,
+				DB3455201DD0C82100EE4E18 /* Assets.xcassets */,
+				DB3455221DD0C82100EE4E18 /* LaunchScreen.storyboard */,
+				DB3455251DD0C82100EE4E18 /* Info.plist */,
+			);
+			path = ShinyApp;
+			sourceTree = "<group>";
+		};
+		DB34552D1DD0C82100EE4E18 /* ShinyAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB34552E1DD0C82100EE4E18 /* ShinyAppTests.swift */,
+				DB3455301DD0C82100EE4E18 /* Info.plist */,
+			);
+			path = ShinyAppTests;
+			sourceTree = "<group>";
+		};
+		DB3455381DD0C82100EE4E18 /* ShinyAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB3455391DD0C82100EE4E18 /* ShinyAppUITests.swift */,
+				DB34553B1DD0C82100EE4E18 /* Info.plist */,
+			);
+			path = ShinyAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB3455151DD0C82100EE4E18 /* ShinyApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB34553E1DD0C82100EE4E18 /* Build configuration list for PBXNativeTarget "ShinyApp" */;
+			buildPhases = (
+				DB3455121DD0C82100EE4E18 /* Sources */,
+				DB3455131DD0C82100EE4E18 /* Frameworks */,
+				DB3455141DD0C82100EE4E18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShinyApp;
+			productName = ShinyApp;
+			productReference = DB3455161DD0C82100EE4E18 /* ShinyApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB3455291DD0C82100EE4E18 /* ShinyAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB3455411DD0C82100EE4E18 /* Build configuration list for PBXNativeTarget "ShinyAppTests" */;
+			buildPhases = (
+				DB3455261DD0C82100EE4E18 /* Sources */,
+				DB3455271DD0C82100EE4E18 /* Frameworks */,
+				DB3455281DD0C82100EE4E18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB34552C1DD0C82100EE4E18 /* PBXTargetDependency */,
+			);
+			name = ShinyAppTests;
+			productName = ShinyAppTests;
+			productReference = DB34552A1DD0C82100EE4E18 /* ShinyAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB3455341DD0C82100EE4E18 /* ShinyAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB3455441DD0C82100EE4E18 /* Build configuration list for PBXNativeTarget "ShinyAppUITests" */;
+			buildPhases = (
+				DB3455311DD0C82100EE4E18 /* Sources */,
+				DB3455321DD0C82100EE4E18 /* Frameworks */,
+				DB3455331DD0C82100EE4E18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB3455371DD0C82100EE4E18 /* PBXTargetDependency */,
+			);
+			name = ShinyAppUITests;
+			productName = ShinyAppUITests;
+			productReference = DB3455351DD0C82100EE4E18 /* ShinyAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB34550E1DD0C82100EE4E18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Wojciech Charuza";
+				TargetAttributes = {
+					DB3455151DD0C82100EE4E18 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					DB3455291DD0C82100EE4E18 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DB3455151DD0C82100EE4E18;
+					};
+					DB3455341DD0C82100EE4E18 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DB3455151DD0C82100EE4E18;
+					};
+				};
+			};
+			buildConfigurationList = DB3455111DD0C82100EE4E18 /* Build configuration list for PBXProject "ShinyApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB34550D1DD0C82100EE4E18;
+			productRefGroup = DB3455171DD0C82100EE4E18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB3455151DD0C82100EE4E18 /* ShinyApp */,
+				DB3455291DD0C82100EE4E18 /* ShinyAppTests */,
+				DB3455341DD0C82100EE4E18 /* ShinyAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB3455141DD0C82100EE4E18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB3455241DD0C82100EE4E18 /* LaunchScreen.storyboard in Resources */,
+				DB3455211DD0C82100EE4E18 /* Assets.xcassets in Resources */,
+				DB34551F1DD0C82100EE4E18 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB3455281DD0C82100EE4E18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB3455331DD0C82100EE4E18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB3455121DD0C82100EE4E18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB34551C1DD0C82100EE4E18 /* ViewController.swift in Sources */,
+				DB34551A1DD0C82100EE4E18 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB3455261DD0C82100EE4E18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB34552F1DD0C82100EE4E18 /* ShinyAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB3455311DD0C82100EE4E18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB34553A1DD0C82100EE4E18 /* ShinyAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB34552C1DD0C82100EE4E18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB3455151DD0C82100EE4E18 /* ShinyApp */;
+			targetProxy = DB34552B1DD0C82100EE4E18 /* PBXContainerItemProxy */;
+		};
+		DB3455371DD0C82100EE4E18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB3455151DD0C82100EE4E18 /* ShinyApp */;
+			targetProxy = DB3455361DD0C82100EE4E18 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB34551D1DD0C82100EE4E18 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB34551E1DD0C82100EE4E18 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB3455221DD0C82100EE4E18 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB3455231DD0C82100EE4E18 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB34553C1DD0C82100EE4E18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB34553D1DD0C82100EE4E18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB34553F1DD0C82100EE4E18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShinyApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.charuza.ShinyApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DB3455401DD0C82100EE4E18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShinyApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.charuza.ShinyApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		DB3455421DD0C82100EE4E18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ShinyAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.charuza.ShinyAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShinyApp.app/ShinyApp";
+			};
+			name = Debug;
+		};
+		DB3455431DD0C82100EE4E18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ShinyAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.charuza.ShinyAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShinyApp.app/ShinyApp";
+			};
+			name = Release;
+		};
+		DB3455451DD0C82100EE4E18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ShinyAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.charuza.ShinyAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ShinyApp;
+			};
+			name = Debug;
+		};
+		DB3455461DD0C82100EE4E18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ShinyAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.charuza.ShinyAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ShinyApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB3455111DD0C82100EE4E18 /* Build configuration list for PBXProject "ShinyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB34553C1DD0C82100EE4E18 /* Debug */,
+				DB34553D1DD0C82100EE4E18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB34553E1DD0C82100EE4E18 /* Build configuration list for PBXNativeTarget "ShinyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB34553F1DD0C82100EE4E18 /* Debug */,
+				DB3455401DD0C82100EE4E18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DB3455411DD0C82100EE4E18 /* Build configuration list for PBXNativeTarget "ShinyAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB3455421DD0C82100EE4E18 /* Debug */,
+				DB3455431DD0C82100EE4E18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DB3455441DD0C82100EE4E18 /* Build configuration list for PBXNativeTarget "ShinyAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB3455451DD0C82100EE4E18 /* Debug */,
+				DB3455461DD0C82100EE4E18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB34550E1DD0C82100EE4E18 /* Project object */;
+}
